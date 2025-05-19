@@ -30,7 +30,6 @@ static QPixmap CvMatToQPixmap(cv::Mat matImage) {
     return QPixmap::fromImage(image_edited);
 }
 
-
 void ContrastPlugin::edit(const cv::Mat &input, cv::Mat &output, QWidget* parent) {
     cv::Mat original = input.clone();
     output = original.clone();  // Khởi tạo output

@@ -4,7 +4,7 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TEMPLATE = lib
 DEFINES += CONTRASTPLUGIN_LIBRARY
-TARGET += ImageBlurPlugin
+TARGET += ContrastPlugin
 CONFIG += c++17
 CONFIG += plugin
 
